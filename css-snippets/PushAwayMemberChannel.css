@@ -1,0 +1,23 @@
+/*---------------------------------------------------*/
+
+/* Member List Sizing */
+.container_b2ce9c {
+    width: 60px;
+    transition: width 0.5s ease;
+}
+.container_b2ce9c:hover {
+    width: 250px;
+}
+
+/*---------------------------------------------------*/
+
+/* Channel List */
+.sidebar_ded4b5 {
+    width: 50px;
+    transition: width 0.5s ease;
+}
+.sidebar_ded4b5:hover {
+    width: 240px;
+}
+
+/*---------------------------------------------------*/
