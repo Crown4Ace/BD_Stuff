@@ -1,23 +1,36 @@
 /*---------------------------------------------------*/
+/* Default Settings */
+:root {
+    --MemberList-Away: 60px;
+    --MemberList-Show: 250px;
+    --MemberList-Away-Time: 0.5s;
+
+    --ChannelList-Away: 60px;
+    --ChannelList-Show: 240px;
+    --ChannelList-Away-Time: 0.5s;
+}
+
+
+/*---------------------------------------------------*/
 
 /* Member List Sizing */
 .container_b2ce9c {
-    width: 60px;
-    transition: width 0.5s ease;
+    width: var(--MemberList-Away);
+    transition: width var(--MemberList-Away-Time) ease;
 }
 .container_b2ce9c:hover {
-    width: 250px;
+    width: var(--MemberList-Show);
 }
 
 /*---------------------------------------------------*/
 
 /* Channel List */
 .sidebar_ded4b5 {
-    width: 50px;
-    transition: width 0.5s ease;
+    width: var(--ChannelList-Away);
+    transition: width var(--ChannelList-Away-Time) ease;
 }
 .sidebar_ded4b5:hover {
-    width: 240px;
+    width: var(--ChannelList-Show);
 }
 
 /*---------------------------------------------------*/
