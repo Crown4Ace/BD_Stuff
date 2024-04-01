@@ -1,0 +1,51 @@
+/* Body */
+body {
+    --font-primary: var(--theme-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: var(--theme-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    background: var(--Background-URL) center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    backdrop-filter: blur(var(--Background-Blur));
+}
+
+
+
+/* ------ Fix Body ------ */
+.theme-dark,
+.theme-light {
+    --text-muted: #9d9d9d;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: rgba(0, 0, 0, .1);
+    --background-secondary: rgba(0, 0, 0, .1);
+    --background-secondary-alt: rgba(0, 0, 0, .1);
+    --background-tertiary: rgba(0, 0, 0, .1);
+    --background-floating: rgba(0, 0, 0, .4);
+    --modal-background: rgba(0, 0, 0, .5);
+    --modal-footer-background: transparent;
+    --input-background: rgba(0, 0, 0, .5);
+    --button-secondary-background: rgba(0, 0, 0, .5);
+    --channeltextarea-background: rgba(0, 0, 0, .1);
+    --background-modifier-hover: rgba(0, 0, 0, .42);
+    --background-modifier-selected: rgba(0, 0, 0, .45);
+    --scrollbar-thin-track: rgba(0, 0, 0, .1);
+    --scrollbar-auto-track: rgba(0, 0, 0, .1);
+    --scrollbar-auto-scrollbar-color-track: rgba(0, 0, 0, .1);
+    --elevation-low: none;
+    /* shadows */
+    --primary-630: rgba(0, 0, 0, .5);
+    /* Active Now activities */
+    --profile-gradient-primary-color: rgba(0, 0, 0, .5);
+    /* unthemed profile bg */
+}
+/* don't change text colors for custom profiles */
+.theme-dark:not(.userPopoutOuter__3884e),
+.theme-light:not(.userPopoutOuter__3884e) {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+}
